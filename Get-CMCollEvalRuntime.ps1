@@ -7,7 +7,7 @@ $AllCollIDs = Get-Content "$ScriptPath\IDList.txt"
 # Install/check for ConfigurationManager module
 try {
     Import-Module ConfigurationManager -ErrorAction 'Stop'
-    Set-Location CAS:
+    Set-Location <SITE CODE>
 }
 catch [System.IO.FileNotFoundException] {
     throw 'The ConfigurationManager module cannot be found.'
