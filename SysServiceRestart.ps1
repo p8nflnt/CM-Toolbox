@@ -18,7 +18,7 @@ workflow RestartService {
         [string[]]$ItemArray
     )
     
-    Foreach -Parallel ($system in $AllSystems) {
+    ForEach -Parallel ($system in $AllSystems) {
     
         inlinescript {
             # Create array
