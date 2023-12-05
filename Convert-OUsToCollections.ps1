@@ -1,9 +1,9 @@
 <#
 .SYNOPSIS
     Get membership of 1+ AD OUs recursively, check for AD object enablement, and ConfigMan presence.
-    Divide into groups based on provided collection count divisor.
+    Divide into groups using provided collection count divisor.
     Convert lists to comma-separated names & export individual .txt files at script root.
-    Lists intended for use w/ CM collection's 'Add Resources' option, and copy/paste computer names.
+    Lists intended for use w/ CM collection's 'Add Resources' option to copy/paste computer names for bulk add.
 
 .NOTES
     Name: Convert-OUsToCollections
