@@ -12,7 +12,8 @@
     DateCreated: 2023-Dec
 
 .LINK
-    https://
+    https://github.com/p8nflnt/CM-Toolbox/blob/main/Convert-OUsToCollections.ps1
+    https://paytonflint.com/powershell-configman-convert-ous-to-collections/
 #>
 
 #= Prerequisites ===================================================================================================================
